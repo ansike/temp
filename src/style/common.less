@@ -1,0 +1,98 @@
+@import url(./variable.less);
+html,body{
+  font-size: 14px;
+}
+.co-top{
+  height: 40px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #42C57A;
+}
+.fz-select-box{
+  width: 110px;
+  float: left;
+}
+.fz-ipt-box{
+  float: left;
+  margin-right: 20px;
+  .el-input{
+    width: 300px;
+  }
+}
+// 新建按钮
+.add-btn {
+  float: right;
+}
+//表格中操作部分按钮
+button{
+  .item-link{
+    text-decoration: none;
+    color: #fff;
+  }
+}
+.fz-btn{
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 0;
+  background: #fff;
+  outline: none;
+  cursor: pointer;
+}
+.green-btn{
+  background: @color-main;
+  color:#fff; 
+  &:hover{
+    background: rgb(104, 209, 149);
+      border-color: rgb(104, 209, 149);
+      color: #fff;
+  }
+  &:active{
+    background: rgb(59, 177, 110);
+      border-color: rgb(59, 177, 110);
+      color: #fff;
+  }
+}
+.alert-btn{
+  background: @color-alert;
+  color:#fff; 
+  &:hover{
+    background: #f27c60;
+      border-color: #f27c60;
+      color: #fff;
+  }
+  &:active{
+    background: #fa4f26;
+      border-color: #fa4f26;
+      color: #fff;
+  }
+}
+.disable-btn{
+  background: #ccc;
+  color:#fff; 
+}
+//分页
+.fz-pagination{
+  text-align: center;
+  padding: 30px 0;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.colorMain{
+  color: @color-main;
+}
+ul,h1,h2,h3,h4,h5,h6{
+  padding:0;
+  margin: 0;
+}
+li{
+  list-style: none;
+}

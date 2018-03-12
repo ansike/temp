@@ -1,0 +1,1665 @@
+{
+	"taskDetail":{
+	    "errNo": 0,
+	    "errStr": "success",
+	    "data": {
+	        "taskName": "assassin",
+	        "taskUnit": null,
+	        "taskList": [
+	            {
+	                "type": 1,
+	                "name": "课前测试",
+	                "examList": [
+                        {
+                            "type": 1,
+                            "name": "默认类型",
+                            "questionList": [
+                                {
+                                    "qid": 103,
+                                    "score": 0,
+                                    "name": "选择题",
+                                    "stemDesc":"这是一个选择题！",
+                                    "type": 4,
+                                    "extData": [
+                                        {
+                                            "background": [
+                                                "lecture_34cb775673cb051fa98c75198863c4b1.jpg"
+                                            ],
+                                            "stemImg": [
+                                                "lecture_be35be7da45558806d20fd350b670e19.jpg"
+                                            ],
+                                            "stemAudio": [
+                                                "lecture_008cb35eabc7d869050c6749888ea875.mp3"
+                                            ],
+                                            "stemImgTxt":["audioName"],
+                                            "optionImg":[{
+                                            	"1":"lecture_be35be7da45558806d20fd350b670e19.jpg"
+                                            },{
+                                            	"2":"lecture_be35be7da45558806d20fd350b670e19.jpg"
+                                            },{
+                                            	"3":"lecture_be35be7da45558806d20fd350b670e19.jpg"
+                                            }],
+                                            "answer":["2"],
+                                            "videoTime": ""
+                                        }
+                                    ],
+                                    "answerTime": 0,
+                                    "createTime": 1518711865,
+                                    "updateTime": 1518711865
+                                },
+                                {
+                                    "qid": 103,
+                                    "score": 0,
+                                    "name": "huiben",
+                                    "stemDesc":"这是一个绘本！",
+                                    "type": 3,
+                                    "extData": [
+                                        {
+                                            "background": [
+                                                "lecture_34cb775673cb051fa98c75198863c4b1.jpg"
+                                            ],
+                                            "stemImg": [
+                                                "lecture_be35be7da45558806d20fd350b670e19.jpg"
+                                            ],
+                                            "stemAudio": [
+                                                "lecture_008cb35eabc7d869050c6749888ea875.mp3"
+                                            ],
+                                            "stemImgTxt":["audioName"],
+                                            "bookDesc":[{
+                                            		"en":"hsadgs"
+                                            	},{
+                                            		"cn":"哈斯高几点回家"
+                                            	}
+                                            ],
+                                            "videoTime": "120"
+                                        }
+                                    ],
+                                    "answerTime": 0,
+                                    "createTime": 1518711865,
+                                    "updateTime": 1518711865
+                                }
+                            ]
+                            
+                        }
+                    ]
+	                
+	            },
+	            {
+	                "type": 2,
+	                "name": "课中测试",
+	                "examList": [
+                        {
+                            "type": 2,
+                            "name": "自主学习",
+                            "questionList": [
+                                {
+                                    "qid": 102,
+                                    "score": 0,
+                                    "name": "",
+                                    "type": 1,
+                                    "extData": [
+                                        {
+                                            "stemVideo": [
+                                                "lecture_43e5575ba5e9b78cb143bf424cc7de80.mp4"
+                                            ]
+                                        }
+                                    ],
+                                    "answerTime": 0,
+                                    "createTime": 1518711836,
+                                    "updateTime": 1518711836
+                                },
+                                {
+                                    "qid": 103,
+                                    "score": 0,
+                                    "name": "huiben",
+                                    "type": 3,
+                                    "extData": [
+                                        {
+                                            "background": [
+                                                "lecture_34cb775673cb051fa98c75198863c4b1.jpg"
+                                            ],
+                                            "stemImg": [
+                                                "lecture_be35be7da45558806d20fd350b670e19.jpg"
+                                            ],
+                                            "stemAudio": [
+                                                "lecture_008cb35eabc7d869050c6749888ea875.mp3"
+                                            ],
+                                            "stemImgTxt":["audioName"],
+                                            "bookDesc":[{
+                                            		"en":"hsadgs"
+                                            	},{
+                                            		"cn":"哈斯高几点回家"
+                                            	}
+                                            ],
+                                            "videoTime": "120"
+                                        }
+                                    ],
+                                    "answerTime": 0,
+                                    "createTime": 1518711865,
+                                    "updateTime": 1518711865
+                                },
+                                {
+                                    "qid": 102,
+                                    "score": 0,
+                                    "name": "",
+                                    "type": 1,
+                                    "extData": [
+                                        {
+                                            "stemVideo": [
+                                                "lecture_43e5575ba5e9b78cb143bf424cc7de80.mp4"
+                                            ]
+                                        }
+                                    ],
+                                    "answerTime": 0,
+                                    "createTime": 1518711836,
+                                    "updateTime": 1518711836
+                                },
+                                {
+                                    "qid": 103,
+                                    "score": 0,
+                                    "name": "huiben",
+                                    "type": 3,
+                                    "extData": [
+                                        {
+                                            "background": [
+                                                "lecture_34cb775673cb051fa98c75198863c4b1.jpg"
+                                            ],
+                                            "stemImg": [
+                                                "lecture_be35be7da45558806d20fd350b670e19.jpg"
+                                            ],
+                                            "stemAudio": [
+                                                "lecture_008cb35eabc7d869050c6749888ea875.mp3"
+                                            ],
+                                            "stemImgTxt":["audioName"],
+                                            "bookDesc":[{
+                                            		"en":"hsadgs"
+                                            	},{
+                                            		"cn":"哈斯高几点回家"
+                                            	}
+                                            ],
+                                            "videoTime": "120"
+                                        }
+                                    ],
+                                    "answerTime": 0,
+                                    "createTime": 1518711865,
+                                    "updateTime": 1518711865
+                                }
+                            ]
+                            
+                        },
+                        {
+                            "type": 2,
+                            "name": "自主学习",
+                            "questionList": [
+								{
+                                    "qid": 102,
+                                    "score": 0,
+                                    "name": "",
+                                    "type": 1,
+                                    "extData": [
+                                        {
+                                            "stemVideo": [
+                                                "lecture_43e5575ba5e9b78cb143bf424cc7de80.mp4"
+                                            ]
+                                        }
+                                    ],
+                                    "answerTime": 0,
+                                    "createTime": 1518711836,
+                                    "updateTime": 1518711836
+                                },
+                                {
+                                    "qid": 103,
+                                    "score": 0,
+                                    "name": "huiben",
+                                    "type": 3,
+                                    "extData": [
+                                        {
+                                            "background": [
+                                                "lecture_34cb775673cb051fa98c75198863c4b1.jpg"
+                                            ],
+                                            "stemImg": [
+                                                "lecture_be35be7da45558806d20fd350b670e19.jpg"
+                                            ],
+                                            "stemAudio": [
+                                                "lecture_008cb35eabc7d869050c6749888ea875.mp3"
+                                            ],
+                                            "stemImgTxt":["audioName"],
+                                            "bookDesc":[{
+                                            		"en":"hsadgs"
+                                            	},{
+                                            		"cn":"哈斯高几点回家"
+                                            	}
+                                            ],
+                                            "videoTime": "120"
+                                        }
+                                    ],
+                                    "answerTime": 0,
+                                    "createTime": 1518711865,
+                                    "updateTime": 1518711865
+                                },
+                                {
+                                    "qid": 102,
+                                    "score": 0,
+                                    "name": "",
+                                    "type": 1,
+                                    "extData": [
+                                        {
+                                            "stemVideo": [
+                                                "lecture_43e5575ba5e9b78cb143bf424cc7de80.mp4"
+                                            ]
+                                        }
+                                    ],
+                                    "answerTime": 0,
+                                    "createTime": 1518711836,
+                                    "updateTime": 1518711836
+                                },
+                                {
+                                    "qid": 103,
+                                    "score": 0,
+                                    "name": "huiben",
+                                    "type": 3,
+                                    "extData": [
+                                        {
+                                            "background": [
+                                                "lecture_34cb775673cb051fa98c75198863c4b1.jpg"
+                                            ],
+                                            "stemImg": [
+                                                "lecture_be35be7da45558806d20fd350b670e19.jpg"
+                                            ],
+                                            "stemAudio": [
+                                                "lecture_008cb35eabc7d869050c6749888ea875.mp3"
+                                            ],
+                                            "stemImgTxt":["audioName"],
+                                            "bookDesc":[{
+                                            		"en":"hsadgs"
+                                            	},{
+                                            		"cn":"哈斯高几点回家"
+                                            	}
+                                            ],
+                                            "videoTime": "120"
+                                        }
+                                    ],
+                                    "answerTime": 0,
+                                    "createTime": 1518711865,
+                                    "updateTime": 1518711865
+                                },
+                                {
+                                    "qid": 100,
+                                    "score": 0,
+                                    "name": "拖拽",
+                                    "type": 2,
+                                    "extData": [
+                                        {
+                                            "background": [
+                                                "lecture_b4d56d9e18297e516cc1dc4ebdeea3cf.jpg"
+                                            ],
+                                            "stemImg": [
+                                                "lecture_b12526ace6646894fce7e8a41df31e86.jpg"
+                                            ],
+                                            "stemTxt": [
+                                                "as$$ss"
+                                            ],
+                                            "interfere": [
+                                                "aaa",
+                                                "ss"
+                                            ],
+                                            "answer": [
+                                                "asaa"
+                                            ]
+                                        }
+                                    ],
+                                    "answerTime": 0,
+                                    "createTime": 1518711777,
+                                    "updateTime": 1518711777
+                                }
+                            ]
+                            
+                        }
+                    ]
+	                
+	            }
+	        ]
+	    }
+	},
+	"studentdetail":{
+        "errNo": 0,
+        "errStr": "success",
+        "data": {
+            "unitTotal":7,
+            "classInfo":{
+                "classId":1,
+                "className": "testweqweqweq",
+                "courseName": "testasdasd",
+                "time": "2018-02-12 到 2018-03-12 每周五18:00-19:00",
+                "finishUnit": "3",
+                "unitTotal": "3"
+            },
+            "unitList": [
+                {
+                    "unitId":1,
+                    "unitName":"test1",
+                    "startTime": "2018",
+                    "status": "2"
+                },{
+                    "unitId":1,
+                    "unitName":"test2",
+                    "startTime": "2018",
+                    "status": "2"
+                },{
+                    "unitId":1,
+                    "unitName":"test3",
+                    "startTime": "2018",
+                    "status": "1"
+                },{
+                    "unitId":1,
+                    "unitName":"test4",
+                    "startTime": "2018",
+                    "status": "1"
+                },{
+                    "unitId":1,
+                    "unitName":"test5",
+                    "startTime": "2018",
+                    "status": "0"
+                }
+            ],
+            "aggregateList": [
+                {
+                    "stuName":"test",
+                    "unitDetail":[
+                        {
+                            "before":"54%",
+                            "after":"12%"
+                        },{
+                            "before":"32%",
+                            "after":"96%"
+                        },{
+                            "before":"65%",
+                            "after":"34%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        }
+                    ] 
+                },{
+                    "stuName":"test2",
+                    "unitDetail":[
+                        {
+                            "before":"90%",
+                            "after":"12%"
+                        },{
+                            "before":"32%",
+                            "after":"23%"
+                        },{
+                            "before":"65%",
+                            "after":"34%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        },{
+                            "before":"54%",
+                            "after":"96%"
+                        }
+                    ] 
+                }
+            ]
+        }
+    },
+	"unitdetail":{
+        "errNo": 0,
+        "errStr": "success",
+        "data": [
+            {
+                "name":"课前挑战",
+                "data":[
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"1212",
+                                "audio":"https://charge.zuoyebang.cc/flipped_bee50079a5c8fb6640fa13f67890c76e.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A03%3A54Z%2F1800%2Fhost%2F97c016ac0881d1be46c082e0e53c38163595db90809217ca5a42bfeee8aeb310"
+                            }
+                        ],
+                        "accuracy":"90%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"a",
+                                "audio":"https://charge.zuoyebang.cc/flipped_bee50079a5c8fb6640fa13f67890c76e.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A03%3A54Z%2F1800%2Fhost%2F97c016ac0881d1be46c082e0e53c38163595db90809217ca5a42bfeee8aeb310",
+                                "isRight":0
+                            },
+                            {
+                                "stuName":"test2",
+                                "stuAnsewr":"b",
+                                "audio":"https://charge.zuoyebang.cc/flipped_bee50079a5c8fb6640fa13f67890c76e.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A03%3A54Z%2F1800%2Fhost%2F97c016ac0881d1be46c082e0e53c38163595db90809217ca5a42bfeee8aeb310",
+                                "isRight":0
+                            },
+                            {
+                                "stuName":"test3",
+                                "stuAnsewr":"c",
+                                "audio":"https://charge.zuoyebang.cc/flipped_bee50079a5c8fb6640fa13f67890c76e.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A03%3A54Z%2F1800%2Fhost%2F97c016ac0881d1be46c082e0e53c38163595db90809217ca5a42bfeee8aeb310",
+                                "isRight":0
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    },
+                    {
+                        "type":7,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"asas",
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ],
+                        "accuracy":"40%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0,
+                                "audio":"https://charge.zuoyebang.cc/flipped_3f78538a07fc014c6bee6de52308dba2.mp3?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-12T08%3A04%3A27Z%2F1800%2Fhost%2Fa33a5b10757f0d6ef9755505e53cf290246901680dd4a845e7159d7f53e7298d"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"lesson1",
+                "data":[
+                    {
+                        "type":1,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"1212"                                
+                            }
+                        ],
+                        "accuracy":"90%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0
+                            }
+                        ]
+                    },
+                    {
+                        "type":2,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"1212"                                
+                            }
+                        ],
+                        "accuracy":"90%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"课后挑战",
+                "data":[
+                    {
+                        "type":1,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"1212"                                
+                            }
+                        ],
+                        "accuracy":"90%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0
+                            }
+                        ]
+                    },
+                    {
+                        "type":2,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"1212"                                
+                            }
+                        ],
+                        "accuracy":"90%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0
+                            }
+                        ]
+                    },
+                    {
+                        "type":3,
+                        "qDetail":[
+                            {
+                                "screenshot":"https://charge.zuoyebang.cc/flipped_fef482af1ef5e58068e55789469ee58b.png?authorization=bce-auth-v1%2F80054b2251d24cb98eda994c93426d7d%2F2018-03-09T02%3A57%3A10Z%2F1800%2Fhost%2F9becbd0c5f4291f5127d8c05a547779d97275e714869611dbeb57460fe500060",
+                                "answer":"1212"                                
+                            }
+                        ],
+                        "accuracy":"90%",
+                        "stuDetail":[
+                            {
+                                "stuName":"test",
+                                "stuAnsewr":"32",
+                                "isRight":0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
