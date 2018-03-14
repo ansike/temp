@@ -18,7 +18,7 @@ Vue.use(VueLazyload, {
 });
 
 if (process.env.NODE_ENV == 'test') {
-  Vue.prototype.URL_PREFIX = 'http://test60.suanshubang.com'
+  Vue.prototype.URL_PREFIX = 'http://test120.suanshubang.com'
 } else {
   Vue.prototype.URL_PREFIX = ''
 }

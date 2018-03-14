@@ -6,11 +6,11 @@
       style="width: 100%">
         <el-table-column
         align="center"
-        :prop="tableColum.column"
+        prop="studentName"
         label="学生姓名"
-        width="80">
+        >
         </el-table-column>
-        <template v-for="(items,$key) in tableColum.data">
+        <template v-for="(items,$key) in listData">
           <el-table-column
             align="center"
             type="index"
@@ -20,13 +20,13 @@
                   align="center"
                   label="课前挑战"
                   :prop="items.before"
-                  width="80">
+                  >
                 </el-table-column>
                 <el-table-column
                   align="center"
                   label="课后挑战"
                   :prop="items.after"
-                  width="80">
+                  >
                 </el-table-column>
           </el-table-column>
         </template>
@@ -36,34 +36,37 @@
 export default{
     data(){
         return{
-            tableColum:{
-                column:'stuName',
-                data:[] 
-            }
         }
     },
     props:['data',],
     created(){
     },
     mounted(){
-      this.initData();
+      // this.initData();
       
     },
     methods:{
       initData(){
-        if(!this.$props.data) return false;
-        let num = this.$props.data[0].unitDetail.length;
-        this.tableColum.data = [];
-        for(let i = 0; i < num; i++){
-          let data = {
-              "before":"unitDetail["+i+"].before",
-              "after":"unitDetail["+i+"].after"
-          }
-          this.tableColum.data.push(data);
-        }
+       
       },
       computedUnit(index){
           return 'Unit'+(++index)
+      }
+    },
+    computed:{
+      listData(){
+        let temp = [];
+        let data = this.$props.data
+        if(!data[0]) return false;
+        let num = data[0].unitDetail.length;
+        for(let i = 0; i < num; i++){
+          let data = {
+              "before":"unitDetail["+i+"].beforeClass",
+              "after":"unitDetail["+i+"].afterClass"
+          }
+          temp.push(data);
+        }
+        return temp
       }
     }
 }

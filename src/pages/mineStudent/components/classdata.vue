@@ -37,7 +37,7 @@
         label="操作">
         <template slot-scope="scope">
           <template v-if="scope.row.status != 0">
-              <button class="fz-btn green-btn" @click="checkItem(scope.row.unitId)">查看</button>
+              <button class="fz-btn green-btn" @click="checkItem(scope.row)">查看</button>
           </template>
           <template v-else>
               <button class="fz-btn disable-btn" disabled >查看</button>
@@ -53,7 +53,7 @@ export default{
 
         }
     },
-    props:["data"],
+    props:["data","className","classId"],
     created(){
 
     },
@@ -61,8 +61,8 @@ export default{
         computedIndex(index){
             return "Unit"+(++index);
         },
-        checkItem(unitId){
-            this.$router.push({name:'unitdetail',query:{'unitId':unitId}})
+        checkItem(val){
+          this.$router.push({name:'unitdetail',query:{'classId':this.$props.classId,'unitId':val.unitId, 'className':this.$props.className,'unitName':val.unitName}})
         }
     }
 }

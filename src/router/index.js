@@ -13,6 +13,7 @@ const UnitDetail = resolve => require(['@/pages/mineStudent/unitdetail.vue'], re
 
 //个人中心
 const Personal = resolve => require(['@/pages/personal/personal.vue'], resolve);
+const Page404 = resolve => require(['@/components/404/404.vue'], resolve);
 
 Vue.use(Router)
 
@@ -72,10 +73,13 @@ export default new Router({
           // }
         ]
     	},
-      // {
-      //     path: '/',
-      //     name: 'HelloWorld',
-      //     component: HelloWorld
-      // }
+      {
+        path: '*',
+        name: '404',
+        component: Page404,
+        meta: {
+          title: "404"
+        }
+      }
   	]
 })

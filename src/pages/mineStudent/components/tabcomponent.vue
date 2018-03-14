@@ -1,27 +1,58 @@
 <template>
     <div class="tabc-body">
+        <el-table
+          :data="tableData"
+          stripe
+          size="mini"
+          style="width: 100%">
+          <el-table-column
+            align="center"
+            label="学生姓名"
+            type="index"
+            width="80">
+          </el-table-column>
+          <el-table-column
+            align="center"
+            prop="unitName"
+            label="作答用时">
+          </el-table-column>
+          <el-table-column
+            align="center"
+            prop="startTime"
+            label="完成时间">
+          </el-table-column>
+          <el-table-column
+            align="center"
+            prop="startTime"
+            label="正确率">
+          </el-table-column>
+          <el-table-column
+            align="center"
+            prop="startTime"
+            label="分数">
+          </el-table-column>
+        </el-table>
         <el-collapse v-model="activeName" accordion>
             <template v-for="(item, $key) in data">
-                <el-collapse-item :title="($key+1)+'.一致性 Consistency'" :name="($key+1)+''" >
+                <el-collapse-item :title="($key+1)+'.'+item[item.id].name" :name="($key+1)+''" >
                   <lazy-component >
-                      <div class="tabc-img-box" :style="{'background-image':'url('+item.qDetail[0].screenshot+')','background-size': 'contain','background-repeat': 'no-repeat','background-position': 'center center'}" ></div>
+                      <div class="tabc-img-box" :style="{'background-image':'url('+item[item.id].screenShot+')','background-size': 'contain','background-repeat': 'no-repeat','background-position': 'center center'}" ></div>
                   </lazy-component>
                   <div class="tabc-head">
-                        <div class="tabc-answer" v-if="item.type==7">
+                        <div class="tabc-answer" v-if="item[item.id].type==7">
                             <span >正确答案：</span>
-                            {{$key}}
-                            <SelfAudio class="selfaudio" :audioUrl="item.qDetail[0].audio" :ref="'selfaudio1'+$key" @click.native="play('selfaudio1'+$key)"></SelfAudio>
+                            <SelfAudio class="selfaudio" :audioUrl="item[item.id].audio" :ref="'selfaudio1'+$key" @click.native="play('selfaudio1'+$key)"></SelfAudio>
                         </div>
                         <div class="tabc-answer" v-else>
-                            <span >正确答案：{{item.qDetail[0].answer}}</span>
+                            <span >正确答案：{{item[item.id].answer.join("")}}</span>
                         </div>
                         <div class="tabc-correct">
-                            <span>正确率：{{item.accuracy}}</span>
+                            <span>正确率：{{item[item.id].accuracy}}</span>
                         </div>
                   </div>
                   <div class="tabc-table">
                       <el-table
-                        :data="item.stuDetail"
+                        :data="item[item.id].stuDetail"
                         stripe
                         border
                         size="mini"
@@ -29,7 +60,7 @@
                         <el-table-column
                           align="center"
                           label="学生姓名"
-                          prop="stuName"
+                          prop="qId"
                           >
                         </el-table-column>
                         <el-table-column
@@ -37,8 +68,8 @@
                           label="作答情况"
                           >
                             <template slot-scope="scope">
-                                <span>{{scope.row.stuAnsewr}}</span>
-                                <SelfAudio  class="selfaudio" :audioUrl="item.qDetail[0].audio" :ref="'selfaudio2'+$key+scope.$index" @click.native="play('selfaudio2'+$key+scope.$index)"></SelfAudio>
+                                <span>{{scope.row.stuAnswer}}</span>
+                                <SelfAudio  class="selfaudio" v-if="item[item.id].type==7" :audioUrl="item[item.id].audio" :ref="'selfaudio2'+$key+scope.$index" @click.native="play('selfaudio2'+$key+scope.$index)"></SelfAudio>
                             </template>
                         </el-table-column>
                       </el-table>
@@ -55,10 +86,12 @@ export default{
     data(){
         return{
             activeName:['1'],
+            tableData:[]
         }
     },
     props:['data'],
     created(){
+
     },
     mounted(){
 

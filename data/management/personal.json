@@ -1,0 +1,22 @@
+{
+    "teacherinfo":{
+        "errNo":0,
+        "errStr":"success",
+        "data":{
+            "teacherUid":2135305518,
+            "nickName":"王五",
+            "teachingTime":[
+                {
+                    "date":"每周二",
+                    "time":"08:00-10:00"
+                }
+            ],
+            "eeoTeacherAccount":0
+        }
+    },
+    "teachingtimeupdate":{
+        "errNo":0,
+        "errStr":"success",
+        "data":1
+    }
+}

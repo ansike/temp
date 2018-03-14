@@ -34,32 +34,14 @@
     created(){
       var that = this;
       //初始化左侧menu选项
-      this.getMenu(() => {
-        //初始化menu的hover位置
-        var pathname = location.pathname.split('/static/workbench')[1];
-        that.menuData.reduce((prev,cur,index) => {
-          if(pathname==cur.url){
-            sessionStorage.setItem("currentPid",cur.id);
-            this.currentPid = cur.id;
-            return
-          }
-        },{})
-      });
+      this.getMenu();
     },
     mounted(){
     },
     updated(){
-      //处理讲义管理的默认tab－－－handoutmanagement的index.vue中用到
-      var pathname = location.pathname.split('/static/workbench')[1];
-      if(pathname !="/handout" && pathname !="/detail"){
-        sessionStorage.setItem("activeName","000");
-      }
+      
     },
     methods:{
-      menuId: function (id) {
-        this.currentPid = id;
-        sessionStorage.setItem("currentPid",id);
-      },
       getMenu(cb){
         this.menuData = [
           {
@@ -83,7 +65,7 @@
             title:'个人信息',
           },
         ]
-        // this.axios.get(this.URL_PREFIX+'/teacherlive/work/getmenu').then((res) => {
+        // this.axios.get(this.URL_PREFIX+'/desktc/admin/adminmodel').then((res) => {
         //   var res=res.data, that=this;
         //   if(res.errNo==0){
         //     that.menuData=res.data;

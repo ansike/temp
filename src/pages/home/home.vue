@@ -13,6 +13,14 @@ import leftMenu from '../../components/leftMenu/leftmenu';
 export default {
   components: {
     leftMenu
+  },
+  mounted(){
+    // if(location.href.match(/\?ticket\=[a-z0-9]+/g)){ 
+    //   window.location.href=location.href.replace(/\?ticket\=[a-z0-9]+/g,'') 
+    // }
+    if(location.href.match(/\?.*\#\//g)){ 
+      window.location.href=location.href.replace(/\?.*\#\//g,'#/') 
+    }
   }
 };
 

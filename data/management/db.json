@@ -1,4 +1,129 @@
 {
+    "classlist":{
+        "errNo":0,
+        "errStr":"success",
+        "data":{
+            "list":[
+                {
+                    "classId":9,
+                    "className":"测试-2018-03-07 19:37(1000009)1班",
+                    "courseId":1000009,
+                    "time":"2018.03.07-2018.03.07 每周三 08:37-08:37",
+                    "courseName":"测试-2018-03-07 19:37",
+                    "unitTotal":1,
+                    "finishUnit":0
+                },
+                {
+                    "classId":8,
+                    "className":"测试-2018-03-07 16:57(1000008)1班",
+                    "courseId":1000008,
+                    "time":"2018.03.07-2018.03.07 每周三 05:57-05:57",
+                    "courseName":"测试-2018-03-07 16:57",
+                    "unitTotal":1,
+                    "finishUnit":0
+                },
+                {
+                    "classId":7,
+                    "className":"测试测试测试测试测试测试测试测试测试测是",
+                    "courseId":1000007,
+                    "time":"2018.03.07-2018.03.07 每周三 04:17-04:17",
+                    "courseName":"测试-2018-03-07 15:17",
+                    "unitTotal":1,
+                    "finishUnit":0
+                },
+                {
+                    "classId":6,
+                    "className":"测试-2018-03-07 11:38(1000006)1班",
+                    "courseId":1000006,
+                    "time":"2018.03.07-2018.03.07 每周三 12:38-12:38",
+                    "courseName":"测试-2018-03-07 11:38",
+                    "unitTotal":1,
+                    "finishUnit":0
+                },
+                {
+                    "classId":5,
+                    "className":"测试-2018-03-07 11:38(1000005)1班",
+                    "courseId":1000005,
+                    "time":"2018.03.07-2018.03.07 每周三 12:38-12:38",
+                    "courseName":"测试-2018-03-07 11:38",
+                    "unitTotal":1,
+                    "finishUnit":0
+                },
+                {
+                    "classId":4,
+                    "className":"测试-2018-03-06 22:19(1000004)1班",
+                    "courseId":1000004,
+                    "time":"2018.03.06-2018.03.06 每周二 11:19-11:19",
+                    "courseName":"测试-2018-03-06 22:19",
+                    "unitTotal":1,
+                    "finishUnit":0
+                },
+                {
+                    "classId":3,
+                    "className":"测试-2018-03-06 22:07(1000003)1班",
+                    "courseId":1000003,
+                    "time":"2018.03.06-2018.03.06 每周二 11:07-11:07",
+                    "courseName":"测试-2018-03-06 22:07",
+                    "unitTotal":1,
+                    "finishUnit":0
+                },
+                {
+                    "classId":2,
+                    "className":"测试-2018-03-06 22:06(1000002)1班",
+                    "courseId":1000002,
+                    "time":"2018.03.06-2018.03.06 每周二 11:06-11:06",
+                    "courseName":"测试-2018-03-06 22:06",
+                    "unitTotal":1,
+                    "finishUnit":0
+                },
+                {
+                    "classId":1,
+                    "className":"测试1711(1000001)1班",
+                    "courseId":1000000,
+                    "time":"2018.03.06-2018.03.06 每周二 09:42-09:42",
+                    "courseName":"测试1711",
+                    "unitTotal":1,
+                    "finishUnit":0
+                }
+            ]
+        }
+    },
+    "answerdata":{
+        "errNo":0,
+        "errStr":"success",
+        "data":{
+            "aggregateList":[
+                {
+                    "unitDetail":[
+                        {
+                            "beforeClass":"46%",
+                            "unitId":1000006,
+                            "afterClass":"0%"
+                        }
+                    ],
+                    "studentName":"zs"
+                }
+            ],
+            "classInfo":{
+                "classId":6,
+                "className":"测试-2018-03-07 11:38(1000006)1班",
+                "courseId":1000006,
+                "time":"2018.03.07-2018.03.07 每周三 12:38-12:38",
+                "courseName":"测试-2018-03-07 11:38",
+                "unitTotal":1,
+                "finishUnit":0
+            },
+            "unitList":[
+                {
+                    "unitId":1000006,
+                    "unitName":"测试-2018-03-07 11:38",
+                    "startTime":"1970.01.01 08:00-04:00",
+                    "status":1
+                }
+            ],
+            "unitTotal":1
+        }
+    },                  
 	"taskDetail":{
 	    "errNo": 0,
 	    "errStr": "success",

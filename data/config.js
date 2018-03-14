@@ -3,22 +3,42 @@
 var data={
 	"get":[
 		{
-			"key":"/misfz/task/taskDetail",
-			"value":"taskDetail"
+			"key":"/desktc/student/classlist",
+			"value":"classlist"
 		},
 		{
 			"key":"/misfz/task/studentdetail",
 			"value":"studentdetail"
 		},
 		{
+			"key":"/desktc/student/answerdata?classId=6",
+			"value":"answerdata"
+		},
+		{
 			"key":"/misfz/task/unitdetail",
 			"value":"unitdetail"
+		},
+		{
+			"key":"/desktc/teacher/teacherinfo",
+			"value":"teacherinfo"
+		},
+		{
+			"key":"/misfz/task/notice",
+			"value":"indexNotice"
+		},
+		{
+			"key":"/desktc/course/mycourse",
+			"value":"indexLesson"
+		},
+		{
+			"key":"/desktc/course/CalendarInfo",
+			"value":"calendar"
 		}
 	],
 	"post":[
 		{
-			"key":"/notes1/note",
-			"value":"sites"
+			"key":"/desktc/teacher/teachingtimeupdate",
+			"value":"teachingtimeupdate"
 		},
 		
 	]

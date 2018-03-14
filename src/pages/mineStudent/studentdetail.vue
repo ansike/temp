@@ -1,17 +1,23 @@
 <template>
     <div class="sd-body">
+        <div class="breadcrumb-box">
+            <el-breadcrumb separator-class="el-icon-arrow-right">
+              <el-breadcrumb-item :to="{ name:'classlist' }">我的学生</el-breadcrumb-item>
+              <el-breadcrumb-item>{{data.classInfo.className}}</el-breadcrumb-item>
+            </el-breadcrumb>
+        </div>
         <div class="sd-top">
-            <p class="sd-h2">{{classInfo.className}}</p>
-            <p class="sd-h4">{{classInfo.courseName}}</p>
-            <p class="sd-txt">{{classInfo.time}}&nbsp;&nbsp;&nbsp;已上{{classInfo.finishUnit}}个Unit，共{{classInfo.unitTotal}}个Unit</p>
+            <p class="sd-h2">{{data.classInfo.className}}</p>
+            <p class="sd-h4">{{data.classInfo.courseName}}</p>
+            <p class="sd-txt">{{data.classInfo.time}}&nbsp;&nbsp;&nbsp;已上{{data.classInfo.finishUnit}}个Unit，共{{data.classInfo.unitTotal}}个Unit</p>
         </div>
         <div class="sd-content">
             <el-tabs v-model="activeName" @tab-click="handleClick">
                 <el-tab-pane label="课节数据" name="first">
-                    <ClassData :data = "unitList" />   
+                    <ClassData :data = "data.unitList" :classId="classId" :className="data.classInfo.className" />   
                 </el-tab-pane>
                 <el-tab-pane label="综合数据" name="second">
-                    <Comprehensive :data="aggregateList"  />   
+                    <Comprehensive :data="data.aggregateList"  />   
                 </el-tab-pane>
               </el-tabs>
         </div>
@@ -19,28 +25,36 @@
 </template>
 <script>
 const ClassData = resolve=>require(['./components/classdata'],resolve);
-const Comprehensive = resolve=>require(['./components/comprehensive'],resolve);
+// const Comprehensive = resolve=>require(['./components/comprehensive'],resolve);
+import Comprehensive from'./components/comprehensive';
 export default{
     data(){
         return{
-            classInfo:{},
-            unitList:[],
-            aggregateList:[],
+            data:{
+                classInfo:{},
+                unitList:[],
+                aggregateList:[],
+                unitTotal:0,
+            },
             activeName: 'first',
+            classId:'',
         }
     },
-    mounted(){
+    created(){
+        if(this.$route.query){
+            this.classId = this.$route.query.classId
+        }
         this.initData();
+    },
+    mounted(){
     },
     methods:{
         initData(){
             var self = this;
-            this.axios.get('/misfz/task/studentdetail').then((res) => {
+            this.axios.get(this.URL_PREFIX+'/desktc/student/answerdata?classId='+this.classId,).then((res) => {
                 let data = res.data;
                 if(data.errNo==0){
-                    this.classInfo = data.data.classInfo;
-                    this.unitList = data.data.unitList;
-                    this.aggregateList = data.data.aggregateList;
+                    this.data = data.data;
                 }else{
                     this.$message({
                         type: 'error',

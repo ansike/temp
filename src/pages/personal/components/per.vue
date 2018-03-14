@@ -2,13 +2,13 @@
     <div class="per-body">
         <p class="per-title">个人信息</p>
         <p class="per-detail">
-            <span>昵称：小王</span>
-            <span>授课账号：8132798173</span>
+            <span>昵称：{{data.nickName}}</span>
+            <span>授课账号：{{data.eeoAccount}}</span>
         </p>
         <div class="teach-time-box">
             <span>授课时间：</span>
             <ul class="per-time-list">
-                <li v-for="item in timeList">
+                <li v-for="item in data.teachingTime">
                     {{item.date}}&nbsp;{{item.time}}
                 </li>
             </ul>
@@ -24,7 +24,7 @@
             <el-form :inline="true" :model="timeData" class="dialog-list" ref="timeForm">
                 <span class="colorMain">温馨提示：</span><span>
                 添加授课时间时，请选择时间段时长大于等于1小时，小于2小时，以方便教务进行排课。</span>
-                <p style="text-align:right"><button class="fz-btn green-btn" @click="addItem">增加</button></p>
+                <p style="text-align:right"><button class="fz-btn green-btn" @click.prevent="addItem">增加</button></p>
                 <br />
                 <div v-for="(items,index) in timeData.editList" class="dl-child">
                     &nbsp; &nbsp; &nbsp; &nbsp;
@@ -70,23 +70,15 @@
     </div>
 </template>
 <script>
+var qs = require('qs');
 export default{
     data(){
         return{
-            timeList:[
-                {
-                    "date":"每周二",
-                    "time":"17:00-19:00"
-                },
-                {
-                    "date":"每周三",
-                    "time":"17:00-18:00"
-                },
-                {
-                    "date":"每周四",
-                    "time":"12:00-14:00"
-                }
-            ],
+            data:{
+                eeoTeacherAccount:'',
+                nickName:'',
+                teachingTime:[],
+            },
             timeData:{
                 editList:[
                 ],
@@ -126,9 +118,24 @@ export default{
     },
     methods:{
         init(){
+            this.axios.get(this.URL_PREFIX+'/desktc/teacher/teacherinfo').then((res) => {
+                let data = res.data;
+                if(data.errNo==0){
+                    this.data = data.data;
+                    this.initData();
+                }else{
+                    this.$message({
+                        type: 'error',
+                        message: res.data.errStr
+                    });
+                }
+            });
+        },
+        initData(){
             let that = this;
-            that.editList = [];
-            this.timeList.reduce((prev, cur, index, arr)=>{
+            that.timeData.editList = [];
+            if(!this.data.teachingTime) return;
+            this.data.teachingTime.reduce((prev, cur, index, arr)=>{
                 let now = new Date();
                 let time = cur.time.split("-");
                 let time1 = now.setHours(time[0].split(":")[0], time[0].split(":")[1], 0, 0);
@@ -146,8 +153,22 @@ export default{
                 if (valid) {
                     let beData = that.timeData.editList;
                     let data = that.dealData(beData);
-                    debugger
-                    console.log('submit!');
+                    this.axios.post(this.URL_PREFIX+'/desktc/teacher/teachingtimeupdate',qs.stringify({teachingTime:data})).then((res) => {
+                        let data = res.data;
+                        if(data.errNo==0){
+                            this.$message({
+                                type: 'success',
+                                message: res.data.errStr
+                            });
+                            this.dialogVisible = false;
+                            this.init();
+                        }else{
+                            this.$message({
+                                type: 'error',
+                                message: res.data.errStr
+                            });
+                        }
+                    });
                 } else {
                     console.log('error submit!!');
                     return false;
@@ -195,9 +216,10 @@ export default{
             this.timeData.editList.splice(val,1);
         },
         handleClose(done) {
+            this.$refs['timeForm'].resetFields();
+            done();
             // this.$confirm('确认关闭？')
             //   .then(_ => {
-                done();
             //   })
             //   .catch(_ => {});
         }

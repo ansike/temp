@@ -26,9 +26,9 @@
     methods:{
       renderUserInfo: function () {
         var self = this;
-        self.axios.get('/misfz/task/taskDetail').then((response) => {
+        // self.axios.get('/misfz/task/taskDetail').then((response) => {
           
-        });
+        // });
       }
     },
     created: function () {
